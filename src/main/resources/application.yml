@@ -15,7 +15,7 @@ services:
       v1: 1.0.0
 dubbo:
   scan:
-    base-packages: com.spike.myshop.service.content.consumer
+    basePackages: com.spike.myshop.service.content.consumer
   application:
     id: myshop-service-content-consumer
     name: myshop-service-content-consumer

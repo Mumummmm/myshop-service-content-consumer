@@ -29,6 +29,15 @@ public class TbContentController {
         return "content/list";
     }
 
+    /**
+     * 跳转到表单页
+     * @return
+     */
+    @RequestMapping(value = "form", method = RequestMethod.GET)
+    public String form() {
+        return "content/form";
+    }
+
 
     /**
      * 分页查询
